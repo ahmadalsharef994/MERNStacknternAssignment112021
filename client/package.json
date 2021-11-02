@@ -9,13 +9,15 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.24.0",
+    "chokidar": "^3.5.2",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.1",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "reactjs-popup": "^2.0.5",
     "styled-components": "^5.3.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "webpack": "^5.61.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,8 +27,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
