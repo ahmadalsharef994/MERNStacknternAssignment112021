@@ -112,7 +112,7 @@ function University() {
 
 return (
 <Container>
-  <Table striped hover style={{"width":"80%"}}>
+  <Table striped hover>
   <thead>
     <tr>
       <th>Alpha_two_Code</th>
