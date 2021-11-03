@@ -80,17 +80,7 @@ function University() {
   fetchUniversities();
   }, [])
 
-  // const [alpha, setAlpha] = useState("")
-  // const [country, setCountry] = useState("")
-  // const [domain, setDomain] = useState("")
-  // const [name, setName] = useState("")
-  // const [page, setPage] = useState("")
-
-  // function onChangeAlpha(e){setAlpha(e)};
-  // function onChangeContry(e){setCountry(e)};
-  // function onChangeDomain(e){setDomain(e)};
-  // function onChangeName(e){setName(e)};
-  // function onChangePage(e){setPage(e)};
+  
 
   const  handleSubmit = async (e) => {
     e.preventDefault();
@@ -103,7 +93,7 @@ function University() {
           "name": e.target[3].value,
           "web_page":e.target[4].value
       }),{
-      headers: { 'Content-Type': 'application/json'}
+      headers: { 'Content-Type': 'text/plain'}
     });
     alert("Created")
   }
@@ -186,20 +176,7 @@ return (
   }}/>
 
   
-  {/* <Button onClick={async ()=> {
-    await axios.post('http://localhost:3001/create',
-      JSON.stringify({
-        "alpha_two_code": alpha,
-        "country": country,
-        "domain": domain,
-        "name": name,
-        "web_page": page
-    }),{
-    headers: {
-      'Content-Type': 'application/json'
-    }}
-    );
-  }}>Add</Button> */}
+
 </form>
   </Popup>
   </div>
