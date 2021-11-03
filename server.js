@@ -7,7 +7,7 @@ require('dotenv').config()
 const path= require("path")
 const PORT = process.env.PORT || 5000;
 
-mongoose.connect(process.env.MONGO_URI || "mongodb+srv://admin:admin@cluster0.e2yuv.mongodb.net/test?retryWrites=true&w=majority",
+mongoose.connect(process.env.MONGO_URI || "mongodb+srv://xxxx:xxxxx@xxxxxx.xxxxxx.mongodb.net/test?retryWrites=true&w=majority",
     {
     useUnifiedTopology:true,
     useNewUrlParser:true
