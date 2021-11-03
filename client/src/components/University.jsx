@@ -15,7 +15,8 @@ display: flex;
 flex-direction: column;
 text-align: center;
 align-items: center;
-padding-left: 23%;
+padding-left: 15%;
+padding-right: 15%;
 margin-bottom: 50px;
 `;
 
