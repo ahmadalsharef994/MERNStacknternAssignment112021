@@ -93,7 +93,7 @@ function University() {
           "name": e.target[3].value,
           "web_page":e.target[4].value
       }),{
-      headers: { 'Content-Type': 'text/plain'}
+      headers: { 'Content-Type': 'application/json'}
     });
     alert("Created")
   }
