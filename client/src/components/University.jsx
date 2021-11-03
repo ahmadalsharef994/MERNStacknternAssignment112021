@@ -16,8 +16,9 @@ height: fit-content;
   position: relative;
   text-align: center;
   align-items: center;
-  padding-left: 33%;
+  left: 50%;
   margin-bottom: 50px;
+  position:fixed;
 `;
 
 
