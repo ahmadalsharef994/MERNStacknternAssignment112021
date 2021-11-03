@@ -72,7 +72,7 @@ function University() {
 
   useEffect(() => {
   const fetchUniversities = async () =>{
-    const response = await fetch("http://localhost:3001/getUniversities");
+    const response = await fetch("https://whispering-fjord-47147.herokuapp.com/getUniversities");
     const data = await response.json()
     setUniversities(data);
   
@@ -95,7 +95,7 @@ function University() {
   const  handleSubmit = async (e) => {
     e.preventDefault();
       console.log(e.target[0].value)
-      await axios.post('http://localhost:3001/create',
+      await axios.post('https://whispering-fjord-47147.herokuapp.com/create',
         JSON.stringify({
           "alpha_two_code": e.target[0].value,
           "country": e.target[1].value,
@@ -134,7 +134,7 @@ return (
           <td>{univ.name}</td>
           <td>{univ.web_page}</td>
           <td><DeleteButton onClick={async ()=>{
-            await axios.delete("http://localhost:3001/delete/"+univ._id)
+            await axios.delete("https://whispering-fjord-47147.herokuapp.com/delete/"+univ._id)
             alert("deleted")
             }}>Delete</DeleteButton></td>
         </tr>
