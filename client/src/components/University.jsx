@@ -23,14 +23,14 @@ margin-bottom: 50px;
 
 const DeleteButton = styled.button`
 background: #e62143;
-  border-radius: 11px;
+  border-radius: 10px;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: flex;
   font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
-  font-size: 1.1em;
-  font-weight: 600;
+  font-size: 1.0em;
+  font-weight: 550;
   text-decoration: none;
   text-decoration-skip-ink: auto;
   text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
@@ -40,6 +40,8 @@ background: #e62143;
   -webkit-user-select: none;
   touch-action: manipulation;
   word-break: break-word;
+  width: '130%';
+  text-align: 'center'
 `;
 const InsertButton = styled.button`
 margin: 30px;
@@ -172,9 +174,7 @@ return (
      fontWeight: '600',
      cursor: 'pointer',
      marginLeft: "10px",
-     fontSize:"1.1rem",
-     width: '135%',
-     textAlign: 'center'
+     fontSize:"1.1rem"
   }}/>
 
   
