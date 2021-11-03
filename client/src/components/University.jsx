@@ -169,10 +169,12 @@ return (
      backgroundColor: 'rgb(84, 105, 212)',
      boxShadow: 'rgba(0, 0, 0, 0) 0px 0px 0px 0px,                  rgba(0, 0, 0, 0) 0px 0px 0px 0px,   rgba(0, 0, 0, 0.12) 0px 1px 1px 0px,  rgb(84, 105, 212) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,  rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px',
      color: '#fff',
-     fontWeight: '700',
+     fontWeight: '600',
      cursor: 'pointer',
      marginLeft: "10px",
-     fontSize:"1.2rem"
+     fontSize:"1.1rem",
+     width: '135%',
+     textAlign: 'center'
   }}/>
 
   
